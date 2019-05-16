@@ -1,13 +1,13 @@
 # Github Configuration
 ## Setup Personal Access Token
-1) Setup a personal access token as follows
+1) Login to your Github account and setup a personal access token as follows
 - In the upper-right corner of any page, click your profile photo, then click Settings.
 - In the left sidebar, click Developer settings.
 - In the left sidebar, click Personal access tokens.
 - Click Generate new token. Give your token a descriptive name.
 - Select the scopes, or permissions, you’d like to grant this token. To use your token to access repositories from the command line, select repo.
 - Click Generate token.
-- Copy the token to your clipboard. For security reasons, after you navigate off the page, you will not be able to see the token again.
+- Copy the token to your clipboard. For security reasons, after you navigate off the page, you will not be able to see the token again. **Be sure to keep your token somewhere safe!**
 
 # RStudio Server configuration
 ## Update your password
@@ -18,7 +18,7 @@
 4) Go to the top right to logout and log back in using the new password
 
 ## Setup Github user and clone the repo
-1) Setup the github user by going to the bottom left window and entering the following commands in the terminal tab. 
+1) Setup the github user by going to the bottom left window and entering the following commands in the terminal tab.  
 ```git config --global user.name 'Jane Doe'```  
 ```git config --global user.email 'jane@example.com'```   
 ```git config --global --list```
@@ -45,7 +45,7 @@
 ## Pull request
 1) Very simple, go to Git menu item and choose "Pull Branches" *while in your project*
 
-## Shiny server (still needs work)
+## Shiny server (not complete workflow)
 1) Create new repository for shiny apps
 2) Create new project as above in shiny server folder
 3) Pull request from github to update shiny server code

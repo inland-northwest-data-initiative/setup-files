@@ -12,7 +12,7 @@
 # RStudio Server configuration
 ## Update your password
 1) Login to RStudio Server using the supplied username and password
-2) In the bottom left window, go to the terminal tab to change your password  
+2) In the bottom left window, go to the terminal tab to change your password using the following command:   
 ```passwd```  
 3) Enter the old password and new password (please use a good password here)
 4) Go to the top right to logout and log back in using the new password
